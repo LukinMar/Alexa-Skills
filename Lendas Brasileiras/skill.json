@@ -1,0 +1,88 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Venha conhecer mais sobre o folclore brasileiro!",
+          "examplePhrases": [
+            "Alexa, lendas brasileiras",
+            "Alexa, abrir lendas brasileiras"
+          ],
+          "keywords": [
+            "lenda",
+            "brasil",
+            "folclore",
+            "história",
+            "lendas",
+            "histórias",
+            "saci",
+            "boitata",
+            "iara",
+            "cuca",
+            "lobisomem",
+            "boto-cor-de-rosa",
+            "cultura",
+            "brasileira",
+            "brasileiro",
+            "uiapuru"
+          ],
+          "name": "Lendas brasileiras",
+          "description": "Venha saber mais sobre o folclore brasileiro com a Alexa!\n\nAo solicitar, uma lenda aleatoriamente é tocada.\n\nVoz: Iris Regina\n\n*Lendas brasileiras*",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "updatesDescription": "Novas lendas adicionadas!",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Após a frase de invocação, \"Alexa, lendas brasileiras\", será solicitado se o usuário quer ouvir uma lenda brasileira ou não, caso positivo irá automaticamente tocar o áudio da história, se a resposta for negativa a skill será finalizada após uma mensagem de até logo",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "BR",
+        "PT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:844882388866:function:eca0923c-b5ce-4706-8294-1e12cbfa803d:Release_2"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:844882388866:function:eca0923c-b5ce-4706-8294-1e12cbfa803d:Release_2"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:844882388866:function:eca0923c-b5ce-4706-8294-1e12cbfa803d:Release_2"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:844882388866:function:eca0923c-b5ce-4706-8294-1e12cbfa803d:Release_2"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {
+          "termsOfUseUrl": "https://toiletfy.herokuapp.com/termosdeuso.html",
+          "privacyPolicyUrl": "https://toiletfy.herokuapp.com/privacidade.html"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "localizar banheiros",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "sair",
+            "cancelar",
+            "não"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Fechar"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AdaptadoIntent",
+          "slots": [],
+          "samples": [
+            "banheiro adaptado mais proximo",
+            "banheiro adaptado mais próximo",
+            "deficiente",
+            "adaptados",
+            "mostrar adaptados"
+          ]
+        },
+        {
+          "name": "banheiroIntent",
+          "slots": [],
+          "samples": [
+            "banheiro mais proximo",
+            "banheiro mais próximo",
+            "sim",
+            "banheiro"
+          ]
+        },
+        {
+          "name": "AboutIntent",
+          "slots": [],
+          "samples": [
+            "onde eu consigo adicionar banheiros",
+            "quem desenvolveu",
+            "sobre"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}

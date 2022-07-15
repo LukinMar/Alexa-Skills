@@ -1,0 +1,85 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Nunca mais fique no aperto sem encontrar banheiros por aí, use o ToiletFY e ache o banheiro mais próximo de você!",
+          "examplePhrases": [
+            "Alexa, localizar banheiros",
+            "Alexa, abrir localizar banheiros"
+          ],
+          "keywords": [
+            "banheiros",
+            "localizar",
+            "procurar",
+            "banheiro",
+            "aperto",
+            "toilet",
+            "Localização",
+            "API",
+            "Alexa",
+            "Banheiro",
+            "Aplicativo",
+            "PCD",
+            "Toilet",
+            "ToiletFY",
+            "Pesquisar",
+            "Proximo",
+            "Usuário",
+            "Ajuda",
+            "Finder"
+          ],
+          "name": "ToiletFY - Localizar banheiros",
+          "description": "Nunca mais fique no aperto sem encontrar banheiros por aí, use o ToiletFY e ache o banheiro mais próximo de você!\n\nCom essa Skill você poderá saber qual o banheiro mais próximo de você, a avaliação dele, se é adaptado, se possui fraldário ou se necessita pagamento para uso.\n\n**ESTA SKILL SÓ FUNCIONARÁ NO APP ALEXA**\n\nQuando ativar a skill, abrirá uma tela para fornecer a permissão de uso da sua localização. Marque a opção (caso não esteja marcada) e clique em SALVAR PERMISSÕES.\n\nCaso queira cadastrar novos banheiros, acesse o ToiletFY na web ou instale na loja de aplicativos para Android. \n\nToiletFY na web: https://toiletfy.herokuapp.com/\nToiletFY para Android: https://lukinmar.github.io/apptoiletfy/\n* Localizar banheiros *",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "updatesDescription": "Opção para filtrar banheiros adaptados. \n\nSó dizer: Alexa, abrir localizar banheiros e mostrar adaptados",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "pt-BR",
+            "language": "pt"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Para ativar a skill fale Alexa, abrir localizar banheiros ou Alexa, localizar banheiros\n\nQuando ativar a skill, abrirá uma tela para fornecer a permissão de localização. Marque a opção (caso não esteja marcada) e clique em SALVAR PERMISSÕES.\n\nLogo após, a Alexa irá perguntar se o usuário gostaria de saber o banheiro mais próximo ou o banheiro adaptado mais próximo. A Alexa irá responder se há banheiro próximo e as informações do mesmo\n\nCertifique-se de não ter dado permissão para geolocalização ainda, caso já tenha permissão, cancele a mesma para testar o pedido para ativação.",
+      "category": "DEVICE_TRACKING",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "BR",
+        "PT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:844882388866:function:5599006f-41cf-4932-9523-c5928be8f2ca:Release_3"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::devices:all:geolocation:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {
+          "termsOfUseUrl": "https://toiletfy.herokuapp.com/termosdeuso.html",
+          "privacyPolicyUrl": "https://toiletfy.herokuapp.com/privacidade.html"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
